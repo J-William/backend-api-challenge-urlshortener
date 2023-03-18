@@ -1,0 +1,6 @@
+.vscode/*
+.env
+node_modules/.replit
+replit.nix
+node_modules/
+replit.nix

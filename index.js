@@ -21,7 +21,7 @@ app.get('/api/shorturl/:surl', function(req, res) {
 	if (index >= 0 && index <= urls.length) {
 		res.redirect(urls[index]);1
 	} else {
-		res.json({error: `${index} is invalid url`});
+		res.json({error: 'invalid url'});
 	}
 })
 
